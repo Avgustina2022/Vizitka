@@ -1,0 +1,16 @@
+img {
+  width: 20%;
+}
+.letter {
+  color: red; /* Красный цвет символов */
+  font-size: 150%; /* Размер шрифта в процентах */
+  font-family: serif; /* Шрифт с засечками */
+  position: relative; /* Относительное позиционирование */
+  top: 2px; /* Сдвиг сверху */
+}
+.centerLayer {
+  margin-left: 30%; /* Отступ слева */
+  width: 40%; /* Ширина слоя */
+  background: grey; /* Цвет фона */
+  padding: 10px; /* Поля вокруг текста */
+}
