@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>портфолио</title>
+    <!-- Отображать страницу в масштабе 100% -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Нормализуем стили -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <!-- Подключаем собственные стили -->
+    <link rel="stylesheet" href="/main.css" />
+    <!-- Отображаем фавикон -->
+    <link rel="shortcut icon" type="image/x-icon" href="#" />
+    <!-- Подключаем шрифты -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+  
+  </head>
+
+  <body>
+   
+    <div class="centerLayer">
+
+    <img src="/фото меньше 1.jpg" alt="" />
+    <h1><p><span class="letter">Г</span>лобенко Ирина Евгеньевна</h1></p>
+    <h2>Веб дизайн</h2>
+    <h3>Москва, м.Академическая</h3>
+    <h4>тел. 8 (985) 9551095</h4>
+
+    
+  </body>
+  <hr>
+  <ul>
+    <li>Сайты</li>
+    <li>Дизайн логотипа</li>
+    <li>Продвижение</li>
+  </ul>
+
+
+  <form action="select1.php" method="post">
+    <p><select size="3" multiple name="hero[]">
+     <option disabled>Выберите опцию</option>
+     <option value="Сайты">Сайты</option>
+     <option selected value="Дизайн логотипа">Дизайн логотипа</option>
+     <option value="Продвижение">Продвижение</option>
+    
+    </select></p>
+    <p><input type="submit" value="Отправить"></p>
+   </form>
+  </hr>
+</div>
+</html>
